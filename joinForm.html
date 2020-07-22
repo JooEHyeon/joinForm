@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
-    <input type="text" name = "id" placeholder="아이디 쳐라">
-    <br/>
-    <input type = "password" name = "pw" placeholder="비번 쳐라">
-    <br/>
-<label for="q">비밀번호찾을래?</label>
-    <select name="비밀번호 찾기" id = "q">
-    <option value="어디갔어">어디갔어</option>
-    <option value="뭐좋아해">뭐좋아해</option>
-    
-</select><br/>
+    <input type="text" name="id" class="quest" placeholder="아이디 쳐라">
+    <br />
+    <br />
+    <input type="password" name="pw" class="quest" placeholder="비번 쳐라">
+    <br />
+    <br />
+    <label for="pw_find" id="join">비밀번호찾을래?</label>
+    <select name="비밀번호 찾기" id="pw_find">
+        <option value="어디갔어">어디갔어</option>
+        <option value="뭐좋아해">뭐좋아해</option>
+
+    </select><br />
     <textarea name="intro" cols="30" rows="10"> 자기소개 ㄱㄱ</textarea>
 </body>
+
 </html>
